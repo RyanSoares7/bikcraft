@@ -46,6 +46,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .parceiros li {
+    padding: 20px;
+  }
+
   .parceiros li:nth-child(n + 3) {
     border-top: 2px solid var(--cor-2);
   }
@@ -57,6 +61,6 @@
 
 @media (max-width: 400px) {
   .parceiros h2 {
-    width: max-content;
+    font-size: 1.84rem;
   }
 }
